@@ -106,3 +106,7 @@ Comando: npm run test:cov
 9. Enviar foto de index.html de la carpeta lcov/report 
 
 ![Screenshot_1](https://github.com/user-attachments/assets/485766c0-09cd-49b6-afc3-6d93ecc4f4b3)
+
+Asegúrate de haber instalado Node.js y el CLI de NestJS (npm install -g @nestjs/cli) antes de comenzar.
+npm run test:cov
+
