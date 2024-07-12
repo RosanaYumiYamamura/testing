@@ -74,3 +74,33 @@ Nest is [MIT licensed](LICENSE).
 
 
 # testing
+
+Consigna de Práctica: Coverage Testing en NestJS
+Objetivo
+Desarrollar una aplicación en NestJS que incluya al menos dos servicios y dos controladores. Cada servicio debe tener al menos tres funciones, y se deben escribir pruebas unitarias para alcanzar un 100% de cobertura en estas funciones. Además, se debe excluir el archivo module.ts del informe de cobertura.
+Instrucciones
+Crear una nueva aplicación NestJS:
+Utiliza el CLI de NestJS para crear una nueva aplicación.
+Comando: nest new my-nest-app
+Configurar el proyecto:
+Navega al directorio del proyecto: cd my-nest-app
+Instala las dependencias necesarias: npm install
+Crear dos servicios:
+Crea dos servicios utilizando el CLI de NestJS.
+Comando: nest generate service service1
+Comando: nest generate service service2
+Crear dos controladores:
+Crea dos controladores utilizando el CLI de NestJS.
+Comando: nest generate controller controller1
+Comando: nest generate controller controller2
+Implementar funciones en los servicios:
+Cada servicio debe tener al menos tres funciones.
+Escribir pruebas unitarias:
+Escribe pruebas unitarias para cada función en los servicios.
+Asegúrate de que las pruebas cubran el 100% de las funciones.
+Utiliza Jest para las pruebas unitarias.
+Excluir module.ts del informe de cobertura:
+Generar el informe de cobertura:
+Ejecuta las pruebas y genera el informe de cobertura.
+Comando: npm run test:cov
+9. Enviar foto de index.html de la carpeta lcov/report 
